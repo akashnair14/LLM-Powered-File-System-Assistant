@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment variables & secrets (CRITICAL: Do not push real keys)
+.env
+.env.local
+
+# Streamlit config
+.streamlit/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Test/temporary outputs
+outputs/test*
